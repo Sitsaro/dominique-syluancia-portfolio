@@ -210,7 +210,7 @@ a:hover {
     position: relative;
 }
 .sun-picture {
-    width: 10%;
+    width: 5%;
     position: absolute;
     transition: 1s ease-in-out;
 }
