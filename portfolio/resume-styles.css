@@ -182,7 +182,7 @@ p {
     background-color: #c5ded7;
 }
 
-.footer-coontainer {
+.footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -196,7 +196,7 @@ p {
     font-weight: 600;
     display: flex;
     justify-content: space-between;
-    gap: 90px;    
+    gap: 50px;    
 }
 
 .footer-link {
