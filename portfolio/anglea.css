@@ -205,19 +205,21 @@ a:hover {
     width: 70%;
 }
 
-.none-conta {
-
+.middle-container .container-fluid {
     position: relative;
 }
+
 .sun-picture {
-    width: 5%;
+    width: 15%;
     position: absolute;
     transition: 1s ease-in-out;
+    top: 10;
+    right: 20;
 }
 
 .moon-picture {
     position: absolute;
-    width: 10%;
+    width: 15%;
     left: -400px;
     transition: 1s ease-in-out;
 }
