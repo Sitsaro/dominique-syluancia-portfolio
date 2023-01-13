@@ -210,16 +210,16 @@ a:hover {
 }
 
 .sun-picture {
-    width: 15%;
+    width: 12%;
     position: absolute;
     transition: 1s ease-in-out;
     top: 10;
-    right: 20;
+    right: 26%;
 }
 
 .moon-picture {
     position: absolute;
-    width: 15%;
+    width: 12%;
     left: -400px;
     transition: 1s ease-in-out;
 }
