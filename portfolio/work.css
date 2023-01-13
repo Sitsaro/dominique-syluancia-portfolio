@@ -52,6 +52,10 @@ body {
 
 /* Top Section */
 
+.work-space {
+    padding: 10% 0;
+}
+
 .flag-container {
     display: flex;
     flex-direction: row;
@@ -86,7 +90,7 @@ body {
 }
 
 .image {
-    background: url(vertical-slide.png);
+    background: url(/images/vertical-slide.png);
     width: 77px;
     height: 77px;
     border-radius: 60px;
@@ -128,5 +132,5 @@ body {
 }
 
 #bottom-section .description {
-    padding: 0 29% 0;
+    padding: 0 15% 0;
 }

@@ -156,7 +156,7 @@ a:hover {
     }
 
     .middle-container {
-        background-color: rgb(193, 193, 193);
+        background-color: rgb(213, 213, 213);
     }
 
 }
@@ -175,40 +175,38 @@ a:hover {
     margin: 0 auto 0;
     display: flex;
     flex-direction: column;
+    font-size: 8vw;
     align-items: center;
     justify-content: center;
     color: #45b29a;
     z-index: 99;
+    line-height: 1;
+}
+
+.top-container h1 {
+    font-size: 5vw;
 }
 
 .name-container {
     font-family: Great Vibes, Arial;
-    font-size: 8vw;
-    padding-top: 15%;
+    padding-top: 10%;
     text-align: left;
 }
 
 .title-container {
     font-family: arial;
     font-size: 1.7vw;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 /* Beach Section */
 
 .middle-container {
-    position: relative;
-    text-align: center;
     transition: 1s ease-in-out;
 }
 
-.beach-container {
-    position: relative;
-    margin: 0 40px;
-}
-
 .beach-picture {
-    width: 50%;
+    width: 70%;
 }
 
 .sun-picture {
@@ -234,13 +232,14 @@ a:hover {
 }
 
 .bottom-container h3, h2{
+    font-weight: bold;
     color: #45b29a;
     margin: 1.4rem auto;
 }
 
-.bottom-container .bar-line {
+.bar-line {
     display: inline-block;
-    border-color: #bcbcbc;
+    border-color: #212121;
     border-style: none;
     border-top-style: dotted;
     border-width: 10px;
@@ -324,6 +323,7 @@ a:hover {
     text-align: center;
     padding: 40px 0;
     width: 100%;
+    text-align: center;
 }
 
 .contact-links {
@@ -335,6 +335,8 @@ a:hover {
 }
 
 .copyrights {
+    text-align: center;
+    font-size: 16px;
     font-family: Open sans;
     margin-top: 30px;
     color: #666666;

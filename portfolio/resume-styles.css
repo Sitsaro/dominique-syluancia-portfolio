@@ -19,7 +19,7 @@ h6 {
 
 p {
     font-family: open sans;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.64;
 }
 
@@ -205,7 +205,3 @@ p {
     transition: color 0.5s; 
 }
 
-.copyrights {
-    margin-top: 30px;
-    color: #666666;
-}
