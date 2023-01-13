@@ -191,7 +191,7 @@ a:hover {
 
 .title-container {
     font-family: arial;
-    font-size: 1.7vw;
+    font-size: 1.7rem;
     margin: 10px 0;
 }
 
@@ -206,14 +206,14 @@ a:hover {
 }
 
 .sun-picture {
-    width: 15%;
+    width: 12%;
     position: absolute;
     transition: 1s ease-in-out;
 }
 
 .moon-picture {
     position: absolute;
-    width: 15%;
+    width: 12%;
     left: -400px;
     transition: 1s ease-in-out;
 }
@@ -264,7 +264,7 @@ a:hover {
 }
 
 .skill-row {
-    width: 55%;
+    width: 57%;
     margin: 80px auto;
     text-align: left;
     line-height: 1.5;
