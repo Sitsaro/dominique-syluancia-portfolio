@@ -209,6 +209,7 @@ a:hover {
     width: 12%;
     position: absolute;
     transition: 1s ease-in-out;
+    display: none;
 }
 
 .moon-picture {
