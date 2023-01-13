@@ -58,15 +58,19 @@ a:hover {
     float: left;
 }
 
+.profile-holder {
+    position: relative;
+}
+
 .tooltip {
     position: absolute;
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(173, 173, 173);
     color: white;
     padding: 4px 8px 4px 8px;
     border-radius: 2px;
     font-size: 1rem;
-    bottom: -12px; 
-    left: 160px;
+    bottom: -35px; 
+    left: 40px;
     transition: opacity 0.20s;
     pointer-events: none;
     white-space: nowrap;
@@ -241,13 +245,12 @@ a:hover {
     
 }
 
-.contact-me {
-    margin-bottom: 50px;
+.introduction p {
+    margin: 10px auto;
 }
 
-.introduction p, .contact-me p {
-    margin: 10px auto;
-    width: 490px;
+.introduction .description {
+    padding: 0 30% 0;
 }
 
 .bottom-profile-pic {
@@ -256,7 +259,7 @@ a:hover {
 
 }
 
-.skillset h2, .contact-me h2 {
+.skillset h2 {
     margin-top: 200px;
 }
 
